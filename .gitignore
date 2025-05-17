@@ -1,0 +1,25 @@
+# Unignore specific file types
+!*.html
+!*.css
+!*.php
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.bmp
+!*.tiff
+!*.webp
+
+# Unignore specific directories
+!css/
+!images/
+!mustache/
+templates/
+!3 outputs
+
+# Unignore all files inside css/ and images/ directories
+!css/**
+!images/**
+!mustache/**
+templates/**
+!3 outputs/**
