@@ -1,4 +1,4 @@
-# Unignore specific file types
+# Allow common file types
 !*.html
 !*.css
 !*.php
@@ -10,16 +10,14 @@
 !*.tiff
 !*.webp
 
-# Unignore specific directories
+# Allow specific folders and their contents
 !css/
-!images/
-!mustache/
-templates/
-!3 outputs
-
-# Unignore all files inside css/ and images/ directories
 !css/**
+!images/
 !images/**
+!mustache/
 !mustache/**
-templates/**
+!templates/
+!templates/**
+!3 outputs/
 !3 outputs/**
