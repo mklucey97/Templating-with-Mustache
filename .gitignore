@@ -19,5 +19,5 @@
 !mustache/**
 !templates/
 !templates/**
-!3 outputs/
-!3 outputs/**
+!4 outputs/
+!4 outputs/**
