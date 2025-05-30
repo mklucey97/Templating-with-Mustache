@@ -14,6 +14,10 @@
 !images/
 !images/**
 
+# Unignore the templates directory and everything of it
+!templates/
+!templates/**
+
 # Unignore common image file extensions
 !*.jpg
 !*.jpeg
