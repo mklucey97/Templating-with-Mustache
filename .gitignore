@@ -1,0 +1,30 @@
+# But not these:
+!.gitignore
+
+# Unignore HTML, CSS, and PHP files
+!*.html
+!*.css
+!*.php
+
+# Unignore the css directory and everything inside it
+!css/
+!css/**
+
+# Unignore the images directory and everything inside it
+!images/
+!images/**
+
+# Unignore common image file extensions
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.svg
+!*.webp
+!*.bmp
+!*.tiff
+!*.ico
+
+# Unignore the mustache directory and everything inside it
+!mustache/
+!mustache/**
