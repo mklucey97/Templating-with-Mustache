@@ -258,3 +258,11 @@ body, html {
   text-align: left;
 }
 
+/* Paragraph styling */
+.body-div.success p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+
+
