@@ -277,3 +277,12 @@ html, body {
   box-sizing: border-box;
 }
 
+
+/* Error container */
+.body-div.error {
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+
