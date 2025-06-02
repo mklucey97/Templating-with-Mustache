@@ -3,3 +3,14 @@
  * Date: 6-1-25 
  * Assignment 4: Templating with Mustache 
  */
+ 
+ /* Mobile first styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 24px;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  color: white;
+}
