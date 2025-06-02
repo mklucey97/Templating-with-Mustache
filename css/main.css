@@ -14,3 +14,10 @@ body, html {
   background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
   color: white;
 }
+
+section.home {
+  padding: 1rem;
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
