@@ -193,4 +193,9 @@ header nav ul li a:hover {
     gap: 2rem;
   }
 
+header nav ul li {
+    margin: 0;
+  }
+}
+
 
