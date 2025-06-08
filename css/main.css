@@ -16,11 +16,12 @@ body, html {
 }
 
 section.home {
-  padding: 1rem;
+  padding: 120px 1rem 1rem 1rem; /* top padding adjusted for fixed nav */
   text-align: center;
   min-height: 100vh;
   box-sizing: border-box;
 }
+
 
 section.home h1 {
   color: red;
