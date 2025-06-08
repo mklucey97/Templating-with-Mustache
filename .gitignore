@@ -43,3 +43,6 @@
 !mustache/
 !mustache/**
 
+# Unignore the 5 outputs directory and everything inside it
+!5 outputs/
+!5 outputs/**
