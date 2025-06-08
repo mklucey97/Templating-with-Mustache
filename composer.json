@@ -1,0 +1,14 @@
+{
+    "name": "lucey/templatingwithmustache",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mklucey97",
+            "email": "mklucey97@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mustache/mustache": "^2.14"
+    }
+}
