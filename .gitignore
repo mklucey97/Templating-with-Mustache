@@ -6,6 +6,16 @@
 !*.css
 !*.php
 
+# Unignore the vendor directory and everything inside of it
+
+!vendor/
+!vendor/**
+
+# Unignore composer files
+!composer.json
+!composer.lock
+!composer.phar
+
 # Unignore the css directory and everything inside it
 !css/
 !css/**
@@ -32,3 +42,4 @@
 # Unignore the mustache directory and everything inside it
 !mustache/
 !mustache/**
+
