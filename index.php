@@ -5,6 +5,7 @@
 // Assignment 4: Templating with Mustache
 
 require_once 'mustache/mustache/src/Mustache/Autoloader.php';
+Mustache_Autoloader::register();
 
 
 ?>
