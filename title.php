@@ -6,6 +6,9 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+$mustache = new Mustache_Engine;
+
+
 
 
 
