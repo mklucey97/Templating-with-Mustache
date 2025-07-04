@@ -24,6 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
+require_once __DIR__ . '/vendor/autoload.php';
+$mustache = new Mustache_Engine;
+
 
 
 
