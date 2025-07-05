@@ -50,6 +50,20 @@ $mustache = new Mustache_Engine;
  ***************************************************************/
  if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
      $totalLength = strlen($title) + strlen($favdrink) + strlen($pname) + strlen($favfictionalplace) + strlen($favrealplace);
+     
+	 $templateVariables = [
+        'title' => $title,
+        'favdrink' => $favdrink,
+        'pname' => $pname,
+        'favfictionalplace' => $favfictionalplace,
+        'favrealplace' => $favrealplace,
+        'titleLength' => strlen($title),
+        'drinkLength' => strlen($favdrink),
+        'pnameLength' => strlen($pname),
+        'favfictionalplaceLength' => strlen($favfictionalplace),
+        'favrealplaceLength' => strlen($favrealplace),
+        'long_title' => $totalLength >= 30
+    ];
 
 
 
