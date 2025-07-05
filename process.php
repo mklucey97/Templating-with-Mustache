@@ -63,13 +63,7 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
         'pnameLength' => strlen($pname),
         'favfictionalplaceLength' => strlen($favfictionalplace),
         'favrealplaceLength' => strlen($favrealplace),
-        'long_title' => (
-            strlen($title) >= 30 &&
-            strlen($favdrink) >= 30 &&
-            strlen($pname) >= 30 &&
-            strlen($favfictionalplace) >= 30 &&
-            strlen($favrealplace) >= 30
-        )
+        'long_title' => $totalLength > 30  // ✅ FIXED LOGIC HERE
     ];
 
     echo $mustache->render(file_get_contents('templates/header.html'), [
