@@ -49,6 +49,7 @@ $mustache = new Mustache_Engine;
  * STEP 3 & 4: PROCESS + OUTPUT via Mustache templates
  ***************************************************************/
  if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
+     $totalLength = strlen($title) + strlen($favdrink) + strlen($pname) + strlen($favfictionalplace) + strlen($favrealplace);
 
 
 
