@@ -64,6 +64,10 @@ $mustache = new Mustache_Engine;
         'favrealplaceLength' => strlen($favrealplace),
         'long_title' => $totalLength >= 30
     ];
+	
+	 echo $mustache->render(file_get_contents('templates/header.html'), [
+         'pagetitle' => 'Your Title Result'
+    ]);
 
 
 
