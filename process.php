@@ -48,6 +48,7 @@ $mustache = new Mustache_Engine;
  /***************************************************************
  * STEP 3 & 4: PROCESS + OUTPUT via Mustache templates
  ***************************************************************/
+ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
 
 
 
