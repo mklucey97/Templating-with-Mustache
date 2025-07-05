@@ -35,7 +35,7 @@ $title = $_POST['title'] ?? "";
 $favdrink = $_POST['favdrink'] ?? "";
 $pname = $_POST['pname'] ?? "";
 $favfictionalplace = $_POST['favfictionalplace'] ?? "";
-$favrealplace = $_POST['favrealplace'] ?? ""; // ✅ Fixed: semicolon added
+$favrealplace = $_POST['favrealplace'] ?? "";
 
 /*******************************************
  * STEP 2: VALIDATION - Clean the input
@@ -63,7 +63,13 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
         'pnameLength' => strlen($pname),
         'favfictionalplaceLength' => strlen($favfictionalplace),
         'favrealplaceLength' => strlen($favrealplace),
-        'long_title' => $totalLength >= 30
+        'long_title' => (
+            strlen($title) >= 30 &&
+            strlen($favdrink) >= 30 &&
+            strlen($pname) >= 30 &&
+            strlen($favfictionalplace) >= 30 &&
+            strlen($favrealplace) >= 30
+        )
     ];
 
     echo $mustache->render(file_get_contents('templates/header.html'), [
