@@ -43,6 +43,8 @@ $mustache = new Mustache_Engine;
  $favdrink = substr(trim(strip_tags($favdrink)), 0, 64);
  $pname = substr(trim(strip_tags($pname)), 0, 64);
  $favfictionalplace = substr(trim(strip_tags($favfictionalplace)), 0, 64);
+ $favrealplace = substr(trim(strip_tags($favrealplace)), 0, 64);
+
 
 
 
