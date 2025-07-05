@@ -72,6 +72,11 @@ $mustache = new Mustache_Engine;
     echo $mustache->render(file_get_contents('templates/footer.html'), [
         'year' => date("Y")
     ]);
+	
+	} else {
+    echo $mustache->render(file_get_contents('templates/header.html'), [
+        'pagetitle' => 'Error'
+    ]);
 
 
 
